@@ -155,7 +155,7 @@ struct RegisterView: View {
             ProtectedError(error: $viewModel.passwordError, validation: $viewModel.isPasswordValid)
             
             
-            ProtectedField(name: "Confirm Password", type: $viewModel.confirm_password, validation: $viewModel.isPasswordValid)
+            ProtectedField(name: "Confirm Password", type: $viewModel.confirmPassword, validation: $viewModel.isPasswordValid)
                 .onSubmit{
                     viewModel.validatePassword()
                 }

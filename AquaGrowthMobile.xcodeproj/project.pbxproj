@@ -51,9 +51,6 @@
 		48325BCA2B8FB69C00DCE61F /* bluetooth_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48325BC92B8FB69C00DCE61F /* bluetooth_model.swift */; };
 		4879C5742B8FC67C008AEFAC /* main_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879C5732B8FC67C008AEFAC /* main_view.swift */; };
 		4879C5762B8FC686008AEFAC /* main_viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879C5752B8FC686008AEFAC /* main_viewmodel.swift */; };
-		4879C5782B91124D008AEFAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4879C5772B91124D008AEFAC /* GoogleService-Info.plist */; };
-		4879C5792B91124D008AEFAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4879C5772B91124D008AEFAC /* GoogleService-Info.plist */; };
-		4879C57A2B91124D008AEFAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4879C5772B91124D008AEFAC /* GoogleService-Info.plist */; };
 		4879C57D2B91130A008AEFAC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4879C57C2B91130A008AEFAC /* FirebaseAnalytics */; };
 		4879C57F2B91130A008AEFAC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4879C57E2B91130A008AEFAC /* FirebaseAuth */; };
 		4879C5812B91130A008AEFAC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4879C5802B91130A008AEFAC /* FirebaseDatabase */; };
@@ -66,6 +63,9 @@
 		48DCF5842B83E39800F88996 /* AquaGrowthMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCF5832B83E39800F88996 /* AquaGrowthMobileUITests.swift */; };
 		48DCF5862B83E39800F88996 /* AquaGrowthMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCF5852B83E39800F88996 /* AquaGrowthMobileUITestsLaunchTests.swift */; };
 		48F8662C2B97AC440045C2D5 /* custom_tab_bar_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8662B2B97AC440045C2D5 /* custom_tab_bar_view.swift */; };
+		826C2A4E2B9E6F620031C788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826C2A4D2B9E6F620031C788 /* GoogleService-Info.plist */; };
+		826C2A4F2B9E6F620031C788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826C2A4D2B9E6F620031C788 /* GoogleService-Info.plist */; };
+		826C2A502B9E6F620031C788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826C2A4D2B9E6F620031C788 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,7 +130,6 @@
 		48325BC92B8FB69C00DCE61F /* bluetooth_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetooth_model.swift; sourceTree = "<group>"; };
 		4879C5732B8FC67C008AEFAC /* main_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main_view.swift; sourceTree = "<group>"; };
 		4879C5752B8FC686008AEFAC /* main_viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main_viewmodel.swift; sourceTree = "<group>"; };
-		4879C5772B91124D008AEFAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48DCF5652B83E39600F88996 /* AquaGrowthMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaGrowthMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DCF5682B83E39600F88996 /* AquaGrowthMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileApp.swift; sourceTree = "<group>"; };
 		48DCF56A2B83E39600F88996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +141,7 @@
 		48DCF5832B83E39800F88996 /* AquaGrowthMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileUITests.swift; sourceTree = "<group>"; };
 		48DCF5852B83E39800F88996 /* AquaGrowthMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGrowthMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48F8662B2B97AC440045C2D5 /* custom_tab_bar_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_tab_bar_view.swift; sourceTree = "<group>"; };
+		826C2A4D2B9E6F620031C788 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,7 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				48192AB02B92F01700F6F746 /* Info.plist */,
-				4879C5772B91124D008AEFAC /* GoogleService-Info.plist */,
+				826C2A4D2B9E6F620031C788 /* GoogleService-Info.plist */,
 				0FF1FD022B9E40A1004CE5A5 /* Splash_screen.json */,
 				48325BA12B8FB5B500DCE61F /* Models */,
 				48325BA02B8FB5AF00DCE61F /* ViewModels */,
@@ -416,9 +416,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FF1FD032B9E40A1004CE5A5 /* Splash_screen.json in Resources */,
+				826C2A4E2B9E6F620031C788 /* GoogleService-Info.plist in Resources */,
 				48DCF5702B83E39700F88996 /* Preview Assets.xcassets in Resources */,
 				48DCF56D2B83E39700F88996 /* Assets.xcassets in Resources */,
-				4879C5782B91124D008AEFAC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4879C5792B91124D008AEFAC /* GoogleService-Info.plist in Resources */,
+				826C2A4F2B9E6F620031C788 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4879C57A2B91124D008AEFAC /* GoogleService-Info.plist in Resources */,
+				826C2A502B9E6F620031C788 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
